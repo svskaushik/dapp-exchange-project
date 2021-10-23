@@ -9,6 +9,7 @@ The application is deployed on a Heroku server. URL: https://dapp-exchange-proje
 If you get an error in accessing the application your browser, simply wait for sometime to "wake up" the app and then refresh the page.
 
 For v0.1 you will have to manually connect to the webpage using your wallet. Ensure that you use the Kovan network.
+Remember to refresh after establishing a manual connection.
 Certain UI elements are still under development and may not function as intended.
 
 Kindly point out any bugs/issues found in the app.
