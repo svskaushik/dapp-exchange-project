@@ -3,6 +3,7 @@ require('babel-polyfill');
 require('dotenv').config();
 const HDWalletProvider = require('truffle-hdwallet-provider-privkey');
 const privateKeys = process.env.PRIVATE_KEYS || ""
+const apiKey = process.env.INFURA_API_KEY
 
 module.exports = {
   
@@ -22,7 +23,7 @@ module.exports = {
         privateKeys.split(','),
 
         //URL for ethereum node
-        `https://kovan.infura.io/v3/${process.env.INFURA_API_KEY}`
+        `https://kovan.infura.io/v3/${apiKey}`
         )
       },
 
