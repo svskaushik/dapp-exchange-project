@@ -12,7 +12,8 @@ For v0.1 you will have to manually connect to the webpage using your wallet. Ens
 Remember to refresh after establishing a manual connection.
 Certain UI elements are still under development and may not function as intended.
 
-Kindly point out any bugs/issues found in the app.
+Kindly point out any bugs/issues found in the app or any suggestions that you may have.
+Do NOT attempt any transactions with mainnet ether to the contract address.
 
 Enjoy trading Dapp Token!
 
