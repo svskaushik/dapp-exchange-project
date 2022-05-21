@@ -25,12 +25,12 @@ class App extends Component {
     console.log(window.ethereum)
     const token = await loadToken(web3, networkId, dispatch)
     if(!token){
-        window.alert('Token smart contract not detected on the current network. Please select another network with Metamask.')
+        window.alert('Token smart contract not detected on the current network. Please select the Kovan network with Metamask.')
         return
     }
     const exchange = await loadExchange(web3, networkId, dispatch)
     if(!exchange){
-      window.alert('Exchange smart contract not detected on the current network. Please select another network with Metamask.')
+      window.alert('Exchange smart contract not detected on the current network. Please select the Kovan network with Metamask.')
       return    
     }
 
